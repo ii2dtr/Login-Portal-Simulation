@@ -1,0 +1,188 @@
+
+Login Portal Simulation Documentation
+
+Welcome to the Login Portal Simulation documentation! This guide will explain the purpose and functionality of the main.py script,
+designed to simulate a login portal with various features such as user registration, login, a to-do list, notepad, AI assistant, and more.
+
+Index:
+    Overview
+    Structure
+    Main Functions
+    Navigation Functions
+    User Authentication
+    Users
+    Registering
+    Usage
+    Dependencies
+-------------------------------------------------------------------------------------
+
+Overview
+The main.py script was cretaed by Issa Joudeh for my Python project and it simulates a multi-functional portal that includes:
+
+    User Registration & Login
+    To-Do List Management
+    A Notepad for notes
+    An AI Assistant using the OpenAI API
+    A simple Game
+    Utility Tools (Internet Speed Test, Steganography, Password Hashing & Salting)
+--------------------------------------------------------------------------------------
+
+
+Structure
+The script is structured into several key sections:
+
+    User Authentication: Functions for registering, logging in, and logging out users.
+    Navigation: Functions to navigate between different features.
+    Features: Multiple features like To-Do List, Notepad, AI Assistant, Games, and Tools.
+---------------------------------------------------------------------------------------
+
+
+Main Functions
+These functions handle the main operations of the script.
+
+    def login_portal_sim():
+        # Main function to start the login portal simulation
+        users = { ... }  # User database
+        ...
+        return nav_logportal()  # Navigate to the login portal
+----------------------------------------------------------------------------------------
+
+
+Navigation Functions
+These functions handle navigation between different sections of the portal. You can use CTRL+Z on (Windows) or CTRL+D on (UNIX) to cancel an action at any point.
+
+    def nav_logportal():
+        # Function to navigate the login portal options
+        ...
+    def nav_general():
+        # Function to navigate general user options
+        ...
+----------------------------------------------------------------------------------------
+
+
+User Authentication
+User Registration and Login
+
+    These functions handle user registration, login, and logout processes.
+
+        def register():
+            # Function to register a new user
+            ...
+        def login():
+            # Function to log in an existing user
+            ...
+        def logout(username):
+            # Function to log out a user
+            ...
+----------------------------------------------------------------------------------------
+
+
+Users
+There are 2 pre-registered users, they are:
+
+    Games
+    Simple Games
+
+        These functions provide simple games for the user.
+
+            def user_games():
+                # Function to manage games
+                ...
+            def bulls_and_cows():
+                # Function to play Bulls and Cows game
+                ...
+
+        It can be accssed with these (Pag-assistant will not give you these information):
+            Username: Games
+            Password: Lets_play99
+
+Tools
+Utility Tools
+
+    These functions provide various utility tools for the user.
+
+        def user_tools():
+            # Function to manage utility tools
+            ...
+        Internet Speed Test
+        def internet_speed_test():
+            # Function to test internet speed
+            ...
+        Steganography Tools
+        def steganography_tools():
+            # Function to manage steganography tools
+            ...
+        Password Hashing & Salting
+        def password_hashing_salting():
+            # Function to hash and salt passwords
+            ...
+
+    This user can be accssed with these (Pag-assistant will not give you these information):
+        Username: Tools
+        Password: Im-usefu1 
+----------------------------------------------------------------------------------------
+
+
+Registering
+    When registering a new user the user comes with three defult apps and they are:
+
+    To-Do List
+    To-Do List Management
+
+        These functions allow users to create, edit, delete, list, and mark tasks as completed.
+
+            def todo_list():
+                # Function to manage the To-Do List
+                ...
+
+    Notepad
+    Notepad Management
+
+        These functions allow users to create, edit, delete, list, and read notes.
+
+            def notepad():
+                # Function to manage the Notepad
+                ...
+
+    AI Assistant
+    AI Assistant using OpenAI API
+
+        These functions handle interactions with an AI assistant named Pag, you can ask pag about different parts of the project.
+
+            def ai_assistant():
+                # Function to manage AI Assistant
+                ...
+----------------------------------------------------------------------------------------
+
+
+Usage
+    MAKE SURE THE DOCUMENTATION DOCUMENT AND THE MAIN.PY ARE IN THE SAME FOLDER.
+    Run the Script: Execute the main.py script.
+    Navigate: Follow the on-screen instructions to navigate between different features.
+    Register/Login: Register a new user or log in with an existing user.
+    Use Features: Access the To-Do List, Notepad, AI Assistant, Games, and Tools as needed.
+----------------------------------------------------------------------------------------
+
+
+Dependencies
+
+    speedtest-cli 
+    Pillow 
+    openai 
+    hashlib 
+    os 
+    random 
+
+    Make sure to install the required packages:
+
+        pip install speedtest-cli Pillow openai
+----------------------------------------------------------------------------------------
+
+
+Conclusion
+    This is a documentation of my college project, it provides a comprehensive overview of the main.py script, detailing its structure and functionality.
+    This project is about implementing security best practices into a login portal simulation in the terminal, like password requirments, password hashing and salting, error handeling, and providing security tools like stegnagrophy tools and a password hashing & salting tool.
+    This project is intended for Proffesor Michael Mckeever, for the CS81.41A class, at the Santa Rosa Junior College.
+    Feel free to explore the various features and customize the script as needed.
+
+Thank you for your time, Happy coding!
